@@ -1,8 +1,8 @@
-abstract class Shape {
+abstract class ShapuSan {
   abstract getArea(): number;
 }
 
-class Circle extends Shape {
+class Circle extends ShapuSan {
   constructor(public radius: number) {
     super();
   }
@@ -12,7 +12,7 @@ class Circle extends Shape {
   }
 }
 
-class Rectangle extends Shape {
+class Rectangle extends ShapuSan {
   constructor(public width: number, public height: number) {
     super();
   }
